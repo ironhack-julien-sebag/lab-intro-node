@@ -8,20 +8,20 @@ Today is our first day using Node, so we will practice doing some basic operatio
 
 ## Requirements
 
-- Fork this repo
-- Clone this repo
+-   Fork this repo
+-   Clone this repo
 
 ## Submission
 
-- Upon completion, run the following commands:
+-   Upon completion, run the following commands:
 
-  ```
-  git add .
-  git commit -m "done"
-  git push origin master
-  ```
+    ```
+    git add .
+    git commit -m "done"
+    git push origin master
+    ```
 
-- Create Pull Request so your TAs can check up your work.
+-   Create Pull Request so your TAs can check up your work.
 
 ## Testing - Introduction
 
@@ -133,8 +133,8 @@ The **SortedList** class will have the following methods:
 
 The object should have two properties: `items` and `length`.
 
-- `items` should be an array,
-- `length` should be the number of elements in the array.
+-   `items` should be an array,
+-   `length` should be the number of elements in the array.
 
 ### Iteration 2: add(item)
 
@@ -153,7 +153,7 @@ In addition, make sure you _throw_ an error with the message _OutOfBounds_ if a 
 To throw an error, you can do the following:
 
 ```js
-throw new Error('OutOfBounds');
+throw new Error("OutOfBounds")
 ```
 
 <!-- ### Iteration 4: make that list sorted!
@@ -168,7 +168,7 @@ The `max()` method should return the highest value of the array.
 In case you have an empty `SortedList`, you must throw an error with the message "EmptySortedList". For this, you can use:
 
 ```js
-throw new Error('EmptySortedList');
+throw new Error("EmptySortedList")
 ```
 
 ### Iteration 5: min()

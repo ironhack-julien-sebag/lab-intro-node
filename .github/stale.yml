@@ -5,8 +5,8 @@ daysUntilStale: 21
 
 # Issues or Pull Requests with these labels will never be considered stale. Set to `[]` to disable
 exemptLabels:
-  - bug
-  - enhancement
+    - bug
+    - enhancement
 
 # Only issues or pull requests with all of these labels are check if stale. Defaults to `[]` (disabled)
 # onlyLabels:
@@ -21,7 +21,7 @@ staleLabel: stale
 
 # Comment to post when marking as stale. Set to `false` to disable
 markComment: >
-  This pull request has been automatically marked as stale because it didn't have any recent activity. It will be closed if no further activity occurs. Thank you
-  for your contributions.
+    This pull request has been automatically marked as stale because it didn't have any recent activity. It will be closed if no further activity occurs. Thank you
+    for your contributions.
 closeComment: >
-  This pull request is closed. Thank you.
+    This pull request is closed. Thank you.
